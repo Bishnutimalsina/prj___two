@@ -27,7 +27,7 @@ while (infile.good())
         // 8 is for 8 columns 
         for (int j = 0; j < 8; j++)
         {
-            infile >> parkingVector[i][j];
+            infile >> empcol[i][j];
         }
     }
 }
